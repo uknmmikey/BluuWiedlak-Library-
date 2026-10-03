@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>E-Sign Store</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">E-Sign <span>Store</span></div>
+    <input id="search" type="search" placeholder="Search apps..." aria-label="Search apps">
+  </header>
+
+  <main>
+    <section class="hero">
+      <p class="eyebrow">APP CATALOG</p>
+      <h1>Discover apps for E-Sign</h1>
+      <p>Browse your approved app catalog and open each app's official distribution page.</p>
+    </section>
+
+    <section>
+      <div class="section-head">
+        <h2>Apps</h2>
+        <span id="count"></span>
+      </div>
+      <div id="app-grid" class="grid"></div>
+      <p id="empty" class="empty" hidden>No apps match your search.</p>
+    </section>
+  </main>
+
+  <script src="apps.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
