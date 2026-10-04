@@ -10,11 +10,11 @@ const APPS = [
     url: "https://www.mediafire.com/file/mcmjnbj9jpx41f9/gtok-kitsune-banners-unsigned.ipa/file"
   },
   {
-    name: "Example Player",
+    name: "豆包 - 生活工作 AI 助手",
     version: "2.1.0",
-    category: "Media",
-    icon: "▶️",
-    description: "Another example catalog entry.",
-    url: "https://example.com/player"
+    category: "Apps",
+    icon: "🟦",
+    description: "Doubao smuggled version (from mainland chinese appstore) ",
+    url: "https://www.mediafire.com/file/pscqpbtvjy7d9gt/com.bot.doubao_15.1.0_und3fined.ipa/file"
   }
 ];
